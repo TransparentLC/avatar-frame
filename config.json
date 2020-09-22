@@ -1,0 +1,51 @@
+{
+    "avatarSize": 800,
+    "initialImage": {
+        "webp": "https://ae01.alicdn.com/kf/Ha99b7df48097484b90d7420566942d5bx.jpg",
+        "legacy": "https://ae01.alicdn.com/kf/Hed78e27fcc7b49319e7ad7ff00972a3dU.png"
+    },
+    "templates": [
+        {
+            "src": {
+                "webp": "https://ae01.alicdn.com/kf/Hbefc66e2ef6f4966a0b8ddc67e736708G.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Hce5ac16efdf0408b964a0237b016ac42s.png"
+            },
+            "preview": {
+                "webp": "https://ae01.alicdn.com/kf/Hf276d26dd084434eb28e30c7c49207a8V.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/H1b0914f1316c46da8be7acd2461410dc7.png"
+            },
+            "example": {
+                "webp": "https://ae01.alicdn.com/kf/H98157ee7a7214cdea88232cd3bdcacbcj.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Hbcb1978b0c384a36b32215d091c8950bw.jpg"
+            }
+        },
+        {
+            "src": {
+                "webp": "https://ae01.alicdn.com/kf/He23c4670eccc4234b28912d2fddfdfcdh.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Ha0d41e2fccd7469a8f3e0096052a94ae0.png"
+            },
+            "preview": {
+                "webp": "https://ae01.alicdn.com/kf/He783bac1447c4584860d8b53c2681db6L.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Hab28e7eb70e64a7490ccb058e10a9fb6C.png"
+            },
+            "example": {
+                "webp": "https://ae01.alicdn.com/kf/H10ada97ae80f47d9b6121eefea1b4fa04.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Ha73eeb89d8bf411cbadb47f90f829287T.jpg"
+            }
+        },
+        {
+            "src": {
+                "webp": "https://ae01.alicdn.com/kf/He6966ea062484b08ab8899ad1fab5df6i.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/H13ba74f522114a68b1ff325299a2d04bl.png"
+            },
+            "preview": {
+                "webp": "https://ae01.alicdn.com/kf/Hfd193d29de3e408d818e36f6e444a389M.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/Hb9575de775a74941a67eafd2713df712B.png"
+            },
+            "example": {
+                "webp": "https://ae01.alicdn.com/kf/Hd5dba3cd06a54009b4bff51588dc224dX.jpg",
+                "legacy": "https://ae01.alicdn.com/kf/H5ed8b457f5e046089844c528568669b61.jpg"
+            }
+        }
+    ]
+}

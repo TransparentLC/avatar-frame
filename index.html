@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="TransparentLC">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/cropperjs@1/dist/cropper.min.css,npm/mdui@1/dist/css/mdui.min.css">
+    <title>套框头像生成器</title>
+    <script>navigator.userAgent.match(/qq\/[0-9]/i)&&(location.href="https://c.pc.qq.com/middleb.html?pfurl="+encodeURIComponent(location.href));</script>
+</head>
+<body class="mdui-theme-primary-red mdui-theme-accent-red mdui-theme-layout-auto mdui-appbar-with-toolbar">
+    <header class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <span class="mdui-typo-title" style="color:#fff!important">套框头像生成器</span>
+        </div>
+    </header>
+
+    <main class="mdui-container mdui-typo" style="max-width:640px">
+        <div id="editor" class="mdui-hidden">
+            <input id="upload-image" class="mdui-hidden" type="file" accept="image/*">
+            <button
+                id="upload-image-btn"
+                class="mdui-btn mdui-btn-block mdui-text-color-theme-accent mdui-m-y-2"
+            >选择图片</button>
+            <div
+                id="cropper-wrapper"
+                class="mdui-shadow-3 mdui-hoverable mdui-m-y-2"
+                style="max-width:100%;max-height:240px"
+            >
+                <img id="cropper-image" class="mdui-hidden" crossorigin="anonymous">
+            </div>
+            <div class="mdui-valign mdui-m-y-2">
+                <div style="flex-grow:1">
+                    右边是生成的头像预览
+                    <br>
+                    在下方可以选择模板～
+                </div>
+                <div id="preview-wrapper">
+                    <img
+                        id="preview-template"
+                        src=""
+                        class="mdui-shadow-3 mdui-img-rounded"
+                        style="position:absolute;z-index:1;width:100px;height:100px"
+                    >
+                    <div
+                        id="preview-cropper"
+                        class="mdui-img-rounded"
+                        style="width:100px;height:100px;overflow:hidden"
+                    ></div>
+                </div>
+            </div>
+            <div
+                id="template-list"
+                class="mdui-m-y-2"
+                style="flex-grow:1;max-width:100%;overflow-x:auto;white-space:nowrap"
+            ></div>
+            <button
+                id="generate-btn"
+                class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent"
+                style="color:#fff!important"
+            >生成头像</button>
+        </div>
+        <div id="result" class="mdui-hidden">
+            <img
+                id="avatar-image"
+                class="mdui-img-rounded mdui-hoverable mdui-shadow-3 mdui-center mdui-m-y-2"
+                style="max-width:100%;max-height:360px"
+            >
+            <div class="mdui-typo-body-1-opacity mdui-text-center mdui-m-y-2">
+                请直接右键/长按以保存图片～
+            </div>
+            <button
+                id="retry-btn"
+                class="mdui-btn mdui-btn-block mdui-ripple mdui-color-theme-accent mdui-m-b-1"
+                style="color:#fff!important"
+            >再生成一个！</button>
+        </div>
+    </main>
+
+    <footer class="mdui-m-y-2 mdui-typo mdui-typo-caption mdui-text-center" style="opacity:.7">
+        <a href="https://github.com/TransparentLC/avatar-frame" target="_blank">GitHub 上的源代码</a>
+        <br>
+        © 2020 ✨小透明・宸✨
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/combine/npm/cropperjs@1/dist/cropper.min.js,npm/mdui@1/dist/js/mdui.min.js"></script> -->
+    <!-- <script src="app.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/combine/npm/cropperjs@1/dist/cropper.min.js,npm/mdui@1/dist/js/mdui.min.js,gh/TransparentLC/avatar-frame/app.min.js"></script>
+</body>
+</html>
